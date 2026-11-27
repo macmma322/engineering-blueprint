@@ -34,11 +34,17 @@ Then fill in section 0 and delete what does not apply. Already have a
 | -------------------- | ------------------------------------------------------------------------ | ---------------------------------------- |
 | Setup guide          | [SETUP.md](SETUP.md)                                                     | [SETUP.bg.md](SETUP.bg.md)               |
 | The rules            | [CLAUDE.md](CLAUDE.md)                                                   | English only (agents read it as written) |
+| Capability catalogue | [CAPABILITIES.md](CAPABILITIES.md)                                      | [Български](CAPABILITIES.bg.md)       |
 | Example project file | [examples/CLAUDE.project-example.md](examples/CLAUDE.project-example.md) |                                          |
 
 The guide covers prerequisites, new and existing projects, personal
 (user-level) setup, checking that it loaded, customising, updating and
 troubleshooting, on Windows, macOS and Linux.
+
+Optional [profiles](PROFILES.md), [new/adopt/resume workflows](WORKFLOWS.md),
+provider-neutral adapter examples and a [sanitized manifest example](MANIFEST.example.json)
+extend the portable core. They are guidance and examples. They do not enforce
+permissions, install tools, grant model access or certify a capability.
 
 **What it is not:** it does not install Claude Code, give access to models or
 configure other tools. It is plain Markdown that Claude Code reads as context.
@@ -68,5 +74,7 @@ with it.
   Linux.
 - **Самите правила:** [CLAUDE.md](CLAUDE.md), на английски, защото агентите
   ги четат такива, каквито са написани.
+- **Допълнителни профили:** [PROFILES.md](PROFILES.md) и
+  [WORKFLOWS.md](WORKFLOWS.md). Те са по избор и служат като насоки.
 - **Онлайн:** <https://nikolay-georgiev.dev/bg/open-source>
 - **Лиценз:** [MIT](LICENSE).
