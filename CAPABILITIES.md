@@ -12,4 +12,3 @@ This list is deliberately small. Every item remains subject to local review, exa
 | axe-core | Automated accessibility checks | Web projects | Treat results as a signal and pair them with keyboard and screen-reader acceptance. | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) |
 
 The public blueprint does not install these tools, claim that they are safe by default or require a specific subscription. Use the provider's current documentation and a reviewed local manifest.
-

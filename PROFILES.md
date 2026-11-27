@@ -21,4 +21,3 @@ Use explicit states such as planned, implemented, verified, integrated and relea
 ## Provider adapters
 
 Keep the shared constitution provider-neutral and adapters thin. Verify each provider's discovery rules, model names, tool boundaries and native configuration format. Do not claim that a file loaded by one provider is active in another.
-
