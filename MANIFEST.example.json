@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "project": "example-project",
+  "capabilities": [
+    {
+      "id": "example-review-skill",
+      "source": "https://example.invalid/upstream",
+      "exact_revision": "REVIEWED_COMMIT_OR_VERSION",
+      "scope": "project",
+      "providers": ["claude", "codex", "gemini"],
+      "status": "candidate",
+      "digest": "SHA256_AFTER_REVIEW",
+      "permissions": ["read project files"],
+      "network": [],
+      "data_classes": ["synthetic project data"],
+      "rollback": "remove the project-local capability and restore the reviewed lock entry"
+    }
+  ],
+  "credentials": "authenticate through native provider flows; do not commit values"
+}

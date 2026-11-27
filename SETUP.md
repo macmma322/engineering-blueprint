@@ -149,6 +149,14 @@ Then:
 See [`examples/CLAUDE.project-example.md`](examples/CLAUDE.project-example.md)
 for a short project file that imports the blueprint.
 
+## Optional profiles and other providers
+
+Read only the profile that matches the task. Keep the core rules short and
+keep project facts in the project repository. `AGENTS.example.md` and
+`GEMINI.example.md` show thin adapters for other providers. Verify each
+provider's current documentation for file discovery, models, tools, MCP and
+permission controls before activating an adapter.
+
 ## 4. Make it your personal default
 
 This applies the rules to every project on your machine. Your personal file
