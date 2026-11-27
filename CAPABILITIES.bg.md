@@ -2,13 +2,13 @@
 
 Списъкът е умишлено кратък. Всеки инструмент изисква локален преглед, точна версия, проверка на лиценза и тест за съвместимост с конкретния доставчик.
 
-| Възможност | Предназначение | Официален източник |
-|---|---|---|
-| Vercel Skills | Откриване, инсталиране и заключване на умения | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
-| Skillfish | Откриване между агенти, пакети и манифести за възстановяване | [knoxgraeme/skillfish](https://github.com/knoxgraeme/skillfish) |
-| Gitleaks | Сканиране за тайни | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) |
-| OSV-Scanner | Проверка на зависимости | [google/osv-scanner](https://github.com/google/osv-scanner) |
-| Playwright | Браузърна и end-to-end проверка | [microsoft/playwright](https://github.com/microsoft/playwright) |
-| axe-core | Автоматизирани проверки за достъпност | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) |
+| Възможност | Предназначение | Доставчици | Цена и сигурност | Официален източник |
+|---|---|---|---|---|
+| Vercel Skills | Откриване, инсталиране и заключване на умения | Claude Code, Codex, Gemini CLI и други | Open-source CLI. Проверете съдържанието и телеметрията преди употреба. | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
+| Skillfish | Откриване между агенти, пакети и манифести за възстановяване | Множество CLI агенти | Open-source CLI. Проверете достъпа до GitHub и телеметрията преди употреба. | [knoxgraeme/skillfish](https://github.com/knoxgraeme/skillfish) |
+| Gitleaks | Сканиране за тайни | Всеки локален workflow | Предпочитайте локално сканиране. Не качвайте частен код към хоствани скенери. | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) |
+| OSV-Scanner | Проверка на зависимости | Всеки проект | Сканирайте lockfile-ите и записвайте версията и източника на проверката. | [google/osv-scanner](https://github.com/google/osv-scanner) |
+| Playwright | Браузърна и end-to-end проверка | Уеб проекти | Използвайте синтетични акаунти и изолирани браузъри. Не прикачвайте личен профил. | [microsoft/playwright](https://github.com/microsoft/playwright) |
+| axe-core | Автоматизирани проверки за достъпност | Уеб проекти | Резултатите са сигнал и се допълват с проверки от клавиатура и screen reader. | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) |
 
 Публичният blueprint не инсталира тези инструменти и не твърди, че са безопасни по подразбиране. Използвайте актуалната документация и проверен локален манифест.

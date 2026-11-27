@@ -4,7 +4,7 @@ The blueprint is guidance for an agent and its human owner. A Markdown rule does
 
 ## Architecture
 
-Record system boundaries, data ownership, contracts, failure modes, deployment topology, rollback and the simplest viable alternative. Choose a separate service only when deployment, ownership or scaling boundaries justify it.
+Record system boundaries, data ownership, contracts, failure modes, deployment topology, rollback and the simplest viable alternative. Choose a separate service when deployment, ownership, scaling, security, compliance or fault-containment boundaries justify it.
 
 ## Design, UX and motion
 

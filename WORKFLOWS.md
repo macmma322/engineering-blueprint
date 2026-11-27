@@ -10,7 +10,7 @@ Read the existing instructions, source layout, build and test commands, Git stat
 
 ## Resume work
 
-Check the actual branch, base revision, worktree owner, roadmap, handoff, tests and open review. Separate observed evidence from stale promises. Continue the highest-priority authorized item and record the exact next action before stopping.
+Check the actual branch, base revision, worktree owner, roadmap, handoff, tests and open review. Atomically claim the selected roadmap item or confirm its owner before editing so two sessions cannot work the same item unknowingly. Separate observed evidence from stale promises. Continue the highest-priority authorized item and record the exact next action before stopping.
 
 ## Closeout
 
