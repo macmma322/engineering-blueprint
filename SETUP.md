@@ -157,6 +157,9 @@ keep project facts in the project repository. `AGENTS.example.md` and
 provider's current documentation for file discovery, models, tools, MCP and
 permission controls before activating an adapter.
 
+Use the [curated capability catalogue](CAPABILITIES.md) as a starting point.
+It contains links and review boundaries, not an install-everything recipe.
+
 ## 4. Make it your personal default
 
 This applies the rules to every project on your machine. Your personal file

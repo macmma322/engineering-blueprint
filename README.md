@@ -34,6 +34,7 @@ Then fill in section 0 and delete what does not apply. Already have a
 | -------------------- | ------------------------------------------------------------------------ | ---------------------------------------- |
 | Setup guide          | [SETUP.md](SETUP.md)                                                     | [SETUP.bg.md](SETUP.bg.md)               |
 | The rules            | [CLAUDE.md](CLAUDE.md)                                                   | English only (agents read it as written) |
+| Capability catalogue | [CAPABILITIES.md](CAPABILITIES.md)                                      | [Български](CAPABILITIES.bg.md)       |
 | Example project file | [examples/CLAUDE.project-example.md](examples/CLAUDE.project-example.md) |                                          |
 
 The guide covers prerequisites, new and existing projects, personal
